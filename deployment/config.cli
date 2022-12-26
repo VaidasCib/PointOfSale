@@ -1,0 +1,3 @@
+module add --name=org.postgresql --resources=/deployment/postgresql-42.5.1.jar --dependencies=javax.api,javax.transaction.api
+/subsystem=datasources/jdbc-driver=postgres:add(driver-name="postgres", driver-module-name="org.postgresql", driver-class-name="org.postgresql.Driver")
+data-source add --jndi-name=java:jboss/datasources/PointOfSaleDS --name=PointOfSaleDS --connection-url=jdbc:postgresql://localhost:5432/PointOfSale  --driver-name=postgres --user-name=postgres --password=postgres
