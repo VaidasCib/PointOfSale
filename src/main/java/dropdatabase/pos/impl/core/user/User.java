@@ -20,7 +20,7 @@ public class User extends BaseEntity {
     @Column(name = "password")
     private String password;
 
-    @ManyToOne
+    @ManyToOne(cascade=CascadeType.ALL)
     @JoinColumn(name="merchant_id", referencedColumnName = "id")
     private Merchant merchant;
 }
