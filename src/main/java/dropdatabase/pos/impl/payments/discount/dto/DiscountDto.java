@@ -8,6 +8,7 @@ import java.util.UUID;
 
 @Data
 public class DiscountDto {
+    //Nera applies_to_types
     private UUID id;
     private String name;
     private String discount_code;

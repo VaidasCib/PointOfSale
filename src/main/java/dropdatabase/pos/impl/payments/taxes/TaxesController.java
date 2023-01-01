@@ -22,13 +22,13 @@ import java.util.UUID;
 public class TaxesController {
     @Inject
     private TaxesService taxesService;
-    @POST
-    @Path("")
-    @Produces(MediaType.TEXT_PLAIN)
-    public Response post(TaxesPostDto taxesPostDto) {
-        taxesService.post(taxesPostDto);
-        return Response.status(200).entity("Tax created successfully").build();
-    }
+        @POST
+        @Path("")
+        @Produces(MediaType.TEXT_PLAIN)
+        public Response post(TaxesPostDto taxesPostDto) {
+            taxesService.post(taxesPostDto);
+            return Response.status(200).entity("Tax created successfully").build();
+        }
     @GET
     @Path("")
     @Produces(MediaType.APPLICATION_JSON)

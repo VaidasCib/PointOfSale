@@ -1,4 +1,4 @@
-CREATE TABLE payments
+CREATE TABLE payment
 (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     payment_type VARCHAR,

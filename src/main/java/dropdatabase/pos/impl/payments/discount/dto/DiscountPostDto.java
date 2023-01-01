@@ -8,6 +8,7 @@ import java.util.UUID;
 
 @Data
 public class DiscountPostDto {
+    //Nera applies_to_types
     private String name;
     private String discount_code;
     private BigDecimal discount_percentage;
