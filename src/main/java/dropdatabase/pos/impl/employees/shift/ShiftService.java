@@ -15,7 +15,7 @@ public class ShiftService extends Service {
     private ShiftRepository shiftRepository;
     @Inject
     private EmployeeRepository employeeRepository;
-//ENUM....
+
     public void post(ShiftPostDto shiftPostDto) {
         if (Arrays.stream(Shift.WeekDay.values()).noneMatch(day -> day.name().equals(shiftPostDto.getWeekDay()))) {
             throw new IllegalArgumentException("Week day is incorrect");

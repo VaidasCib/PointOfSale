@@ -17,6 +17,7 @@ public class ShiftRepository extends Repository<Shift> {
     public ShiftRepository() {
         super(Shift.class);
     }
+
     public List<Shift> getList(Date minDate, Date maxDate, Boolean stateHoliday, String weekDay) {
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<Shift> criteriaQuery = criteriaBuilder.createQuery(Shift.class);
