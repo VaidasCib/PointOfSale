@@ -10,4 +10,4 @@ The project build to a WAR artifact that contains the API and swagger docs page.
 2. Clone/Download the project
 3. Run ```runDatabase.sh```
 4. Run ```runServer.sh```
-5. Go to ```http://localhost:8080/pos-1.0.0/docs``` to use the swagger UI, or use any other program that can send HTTP requests
+5. Go to ```http://localhost:8080/pos-1.0.0/docs``` to use the swagger UI, or use any other program that can send HTTP requests, the base path of the API is ```http://localhost:8080/pos-1.0.0/api```
