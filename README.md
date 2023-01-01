@@ -6,7 +6,7 @@ The project build to a WAR artifact that contains the API and swagger docs page.
 - Install maven
 - Install docker
 - Install java 16+ (tried with Java 16 and Java 18, both worked, newer versions should work too)
-1. Make sure that ports 5432 (for postgres database), 8080 (for the application), 9990 (for server management) are open
+1. Make sure that ports 5432 (for postgres database), 8080 (for the application), 9990 (for server management) are not used
 2. Clone/Download the project
 3. Run ```runDatabase.sh```
 4. Run ```runServer.sh```
