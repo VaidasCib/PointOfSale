@@ -19,4 +19,6 @@ public class TaxesRepository extends Repository<Taxes> {
     public TaxesRepository() {
         super(Taxes.class);
     }
+
 }
+

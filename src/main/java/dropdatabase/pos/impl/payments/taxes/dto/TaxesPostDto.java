@@ -8,4 +8,6 @@ import java.math.BigDecimal;
 public class TaxesPostDto {
     private String name;
     private BigDecimal tax_percentage;
+
 }
+

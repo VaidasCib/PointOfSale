@@ -10,4 +10,6 @@ public class TaxesDto {
     private UUID id;
     private String name;
     private BigDecimal tax_percentage;
+
 }
+
