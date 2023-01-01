@@ -1,6 +1,7 @@
 package dropdatabase.pos.impl.payments.taxes;
 
 import dropdatabase.pos.common.Service;
+
 import dropdatabase.pos.impl.employees.role.Role;
 import dropdatabase.pos.impl.employees.role.dto.RolePostDto;
 import dropdatabase.pos.impl.payments.taxes.dto.TaxesDto;
@@ -30,4 +31,5 @@ public class TaxesService extends Service {
     public void delete(UUID taxId) {
         taxesRepository.delete(taxId);
     }
+
 }
