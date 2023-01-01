@@ -5,7 +5,7 @@ The project build to a WAR artifact that contains the API and swagger docs page.
 # Architecture
 The API uses Controller-Service-Repository architecture.
 - The controllers use javax.ws.rs annotations to describe the endpoints.
-- The services do all the login and mapping between DTOs and persistence entities.
+- The services do all the logic and mapping between DTOs and persistence entities.
 - The repositories are responsibe for getting data from the database using javax.persistence.
 # How to run
 - Install maven
