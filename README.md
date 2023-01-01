@@ -8,8 +8,8 @@ The API uses Controller-Service-Repository architecture.
 - The services do all the logic and mapping between DTOs and persistence entities.
 - The repositories are responsibe for getting data from the database using javax.persistence.
 # How to run
-- Install maven
 - Install docker
+- Install maven
 - Install java 16+ (tried with Java 16 and Java 18, both worked, newer versions should work too)
 1. Make sure that ports 5432 (for postgres database), 8080 (for the application), 9990 (for server management) are not used
 2. Clone/Download the project
