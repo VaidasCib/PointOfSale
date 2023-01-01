@@ -1,5 +1,5 @@
 # PointOfSale
-Point of Sale API implementation by "Drop Database" based on the technical design by "Skestam_Kartu"
+Point of Sale API implementation by "Drop Database" based on the technical design by "Skestam_Kartu".
 The project is a Java EE 8 API. Java version 16+, dependencies are managed by Maven, server is JBoss Wildfly 26, database is PostgreSQL, migrations managed by Flyway.
 The project build to a WAR artifact that contains the API and swagger docs page.
 # Architecture
