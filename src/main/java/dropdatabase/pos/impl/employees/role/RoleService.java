@@ -31,5 +31,4 @@ public class RoleService extends Service {
     public void delete(UUID roleId) {
         roleRepository.delete(roleId);
     }
-
 }
